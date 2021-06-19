@@ -9,6 +9,9 @@
   <!--Fontawesome-->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--GoogleFonts Raleway-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <!--Myy CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
   <!--Jquery 3.6.0-->
@@ -17,9 +20,66 @@
 
 <body>
 
+  <!--Navbar-->
+  <nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">XDA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Mujer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hombre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accesorios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <!--End Navbar-->
 
+  <!--Header-->
+  <header class="header">
+    <img src="assets/img/imagen1.png" alt="imagen de hombre en header">
+  </header>
+  <!--End Header-->
 
+  <!--Main-->
 
+  <!--Description-->
+  <section class="section-description">
+    <article class="article">
+      <h1 class="article__title">lorem ipsu add valorem</h1>
+      <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa sint debitis
+        odit accusantium. Modi eos animi nulla minima eligendi fuga ratione!</p>
+    </article>
+  </section>
+  <!--End Description-->
+
+  <!--Newsletter-->
+  <section class="section-newsletter">
+    <form class="form">
+      <h2 class="form_title">Newsletter</h2>
+      <label for="fmail">Correo Electrónico:</label>
+      <input type="mail" id="fmail" name="fname" placeholder="Ingresa tu correo electrónico">
+      <button type="submit">Suscribir</button>
+    </form>
+  </section>
+  <!--End Newsletter-->
+
+  <!--End Main-->
 
   <!--Bootstrap 5.0.1 popper-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

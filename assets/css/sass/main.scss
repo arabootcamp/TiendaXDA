@@ -1,9 +1,12 @@
 // main.scss # Manifest File
 
 //abstracts
+@import 'abstracts/variables';
 //vendors
 @import 'vendors/bootstrap/bootstrap';
 //base
+@import 'base/reset';
+@import 'base/typography';
 //layout
 //components
 //pages

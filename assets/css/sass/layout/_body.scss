@@ -1,0 +1,8 @@
+.body {
+  background-color: $isabelline;
+  &__container {
+    max-width: 1280px;
+    min-height: 100vh;
+    margin: auto;
+  }
+}

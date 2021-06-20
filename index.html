@@ -18,19 +18,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
-<body>
+<body class="body">
 
-  <!--Navbar-->
-  <nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">XDA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!--Container Body-->
+  <div class="body__container">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0 ">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand py-5 bg-dark text-white" href="#">XDA</a>
+        <button class="navbar-toggler me-3 " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Mujer</a>
             </li>
@@ -47,39 +50,43 @@
         </div>
       </div>
     </nav>
-  </nav>
-  <!--End Navbar-->
+    <!--End Navbar-->
 
-  <!--Header-->
-  <header class="header">
-    <img src="assets/img/imagen1.png" alt="imagen de hombre en header">
-  </header>
-  <!--End Header-->
+    <!--Header-->
+    <header class="header">
+      <img class="header__img" src="assets/img/imagen1.png" alt="imagen de hombre en header">
+    </header>
+    <!--End Header-->
 
-  <!--Main-->
+    <!--Main-->
+    <main class="main">
+      <!--Description-->
+      <section class="section-description">
+        <article class="article">
+          <h1 class="article__title">lorem ipsu add valorem</h1>
+          <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa sint
+            debitis
+            odit accusantium. Modi eos animi nulla minima eligendi fuga ratione!</p>
+        </article>
+      </section>
+      <!--End Description-->
 
-  <!--Description-->
-  <section class="section-description">
-    <article class="article">
-      <h1 class="article__title">lorem ipsu add valorem</h1>
-      <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa sint debitis
-        odit accusantium. Modi eos animi nulla minima eligendi fuga ratione!</p>
-    </article>
-  </section>
-  <!--End Description-->
+      <!--Newsletter-->
+      <section class="section-newsletter">
+        <form class="form">
+          <h2 class="form_title">Newsletter</h2>
+          <label for="fmail">Correo Electrónico:</label>
+          <input class="form__email" type="mail" id="fmail" name="fname" placeholder="Ingresa tu correo electrónico">
+          <button class="button" type="submit">Suscribir</button>
+        </form>
+      </section>
+      <!--End Newsletter-->
 
-  <!--Newsletter-->
-  <section class="section-newsletter">
-    <form class="form">
-      <h2 class="form_title">Newsletter</h2>
-      <label for="fmail">Correo Electrónico:</label>
-      <input type="mail" id="fmail" name="fname" placeholder="Ingresa tu correo electrónico">
-      <button type="submit">Suscribir</button>
-    </form>
-  </section>
-  <!--End Newsletter-->
+    </main>
+    <!--End Main-->
 
-  <!--End Main-->
+  </div>
+  <!--Fin Container Body-->
 
   <!--Bootstrap 5.0.1 popper-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

@@ -2,12 +2,17 @@
 
 //abstracts
 @import 'abstracts/variables';
+@import 'abstracts/mixins';
 //vendors
 @import 'vendors/bootstrap/bootstrap';
 //base
 @import 'base/reset';
 @import 'base/typography';
 //layout
+@import 'layout/body';
+@import 'layout/header';
+//tag ... just to make difference from the manifest
+@import 'layout/main-tag'
 //components
 //pages
 //themes

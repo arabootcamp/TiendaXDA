@@ -1,9 +1,10 @@
 .main {
   width: 100%;
-  border: 2px solid red;
+  height: auto;
 
   @include response-to('device-xlarge') {
     width: 43%;
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

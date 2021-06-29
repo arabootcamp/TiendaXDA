@@ -1,7 +1,7 @@
 .navbar__container-logo {
   height: 56px;
   @include response-to('device-medium') {
-    height: 90px;
+    height: 80px;
   }
 }
 

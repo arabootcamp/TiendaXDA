@@ -10802,7 +10802,7 @@ p,
 }
 @media (min-width: 767.98px) {
   .navbar__container-logo {
-    height: 90px;
+    height: 80px;
   }
 }
 
@@ -10827,7 +10827,6 @@ p,
   .header {
     position: static;
     width: 57%;
-    height: calc(100vh - 90px);
     float: right;
   }
 }
@@ -10850,11 +10849,12 @@ p,
 
 .main {
   width: 100%;
-  border: 2px solid red;
+  height: auto;
 }
 @media (min-width: 1199.98px) {
   .main {
     width: 43%;
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10873,7 +10873,6 @@ p,
 }
 @media (min-width: 1199.98px) {
   .section-description {
-    padding-top: 10px;
     padding-left: calc((43vw - 40px)*0.1);
     padding-right: calc((43vw - 40px)*0.2);
   }

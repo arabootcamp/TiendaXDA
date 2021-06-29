@@ -1,0 +1,14 @@
+.section-description{
+  padding: 35px 0;
+  padding-left: calc((100vw - 40px)*0.1);
+  padding-right: 40px;
+
+  @include response-to('device-medium'){
+    padding-right: calc((100vw - 40px)*0.2);
+  }
+  @include response-to('device-xlarge') {
+    padding-top: 10px;
+    padding-left: calc((43vw - 40px)*0.1);
+    padding-right: calc((43vw - 40px)*0.2);
+  }
+}

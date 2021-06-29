@@ -10,9 +10,13 @@
 @import 'base/typography';
 //layout
 @import 'layout/body';
+@import 'layout/navbar';
 @import 'layout/header';
-//tag ... just to make difference from the manifest
-@import 'layout/main-tag'
+@import 'layout/main-tag';
+@import 'layout/section-description';
+@import 'layout/section-newsletter';
+@import 'layout/form';
 //components
+@import 'components/button';
 //pages
 //themes

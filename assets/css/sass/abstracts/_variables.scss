@@ -11,8 +11,9 @@ $granite-gray:#646266;
 $quick-silver:#A6A5A8;
 
 //Typography
-//font
-$font:'Raleway',sans-serif;
+//fonts
+$font-raleway:'Raleway',sans-serif;
+$font-playfair: 'Playfair Display', serif;
 //font weight
 $font-bold: 700;
 $font-regular:400;
@@ -27,7 +28,11 @@ $small:14px;
 $x-small:12px;
 
 //Size device
-$device-md: 768px; /*value of mockup tablet is 768px */
-$device-xl: 1200px; /*value of mockup desktop is 1280px*/ 
+$map-breakpoints: ('device-xsmall': (min-width: 360px),
+  'device-small': (min-width: 575.98px),
+  'device-medium': (min-width: 767.98px),
+  'device-large': (min-width: 991.98px),
+  'device-xlarge': (min-width: 1199.98px),
+);
 
 //Variables Bootstrap

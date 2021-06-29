@@ -3,25 +3,25 @@
   height: 58vw;
   overflow: hidden;
 
-  @include mq-header($device-md) {
+  @include response-to('device-medium') {
     height: 44vw;
     position: relative;
   }
 
-  @include mq-header($device-xl) {
+  @include response-to('device-xlarge') {
     position: static;
     width: 57%;
-    height: 710px;
+    height: calc(100vh - 90px) ;
     float: right;
   }
 
   &__img {
     width: 100%;
-    @include mq-header($device-md) {
+    @include response-to('device-medium') {
       position: absolute;
       top: -40%;
     }
-    @include mq-header($device-xl) {
+    @include response-to('device-xlarge') {
       position: static;
       height: 100%;
       object-fit: cover;

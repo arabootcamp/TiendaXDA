@@ -12,6 +12,9 @@
   <!--GoogleFonts Raleway-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <!--GoogleFonts Playfair-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <!--Myy CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
   <!--Jquery 3.6.0-->
@@ -20,73 +23,82 @@
 
 <body class="body">
 
-  <!--Container Body-->
-  <div class="body__container">
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light p-0 ">
-      <div class="container-fluid px-0">
-        <a class="navbar-brand py-5 bg-dark text-white" href="#">XDA</a>
-        <button class="navbar-toggler me-3 " type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Mujer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hombre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Accesorios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          </ul>
-        </div>
+  <!--Navbar-->
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light p-0 ">
+    <div class="container-fluid px-0">
+      <div class="navbar-brand bg-dark text-white px-3 px-md-4 d-flex align-items-center navbar__container-logo">
+        <span class="navbar__logo">XDA</span>
       </div>
-    </nav>
-    <!--End Navbar-->
+      <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Mujer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hombre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accesorios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+  <!--End Navbar-->
 
-    <!--Header-->
-    <header class="header">
-      <img class="header__img" src="assets/img/imagen1.png" alt="imagen de hombre en header">
-    </header>
-    <!--End Header-->
+  <!--Header-->
+  <header class="header">
+    <img class="header__img" src="assets/img/imagen1.png" alt="imagen de hombre en header">
+  </header>
+  <!--End Header-->
 
-    <!--Main-->
-    <main class="main">
-      <!--Description-->
-      <section class="section-description">
-        <article class="article">
-          <h1 class="article__title">lorem ipsu add valorem</h1>
-          <p class="article__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa sint
-            debitis
-            odit accusantium. Modi eos animi nulla minima eligendi fuga ratione!</p>
-        </article>
-      </section>
-      <!--End Description-->
+  <!--Main-->
+  <main class="main">
+    <!--Description-->
+    <section class="section-description">
+      <article class="article">
+        <h1 class="article__title text-uppercase fw-bold">lorem ipsu ad valorem</h1>
+        <p class="article__paragraph d-md-none">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam eaque ipsa</p>
+        <p class="article__paragraph d-none d-md-block">Sed ut perspiciatis, unde omnis iste natus error sit
+          voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis
+          et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+        <button class="button" type="button">Ir a la tienda</button>
+      </article>
+    </section>
+    <!--End Description-->
 
-      <!--Newsletter-->
-      <section class="section-newsletter">
-        <form class="form">
+    <!--Newsletter-->
+    <section class="section-newsletter bg-dark text-white">
+      <form class="form">
+        <div class="form__container-data">
           <h2 class="form_title">Newsletter</h2>
-          <label for="fmail">Correo Electrónico:</label>
-          <input class="form__email" type="mail" id="fmail" name="fname" placeholder="Ingresa tu correo electrónico">
-          <button class="button" type="submit">Suscribir</button>
-        </form>
-      </section>
-      <!--End Newsletter-->
-
-    </main>
-    <!--End Main-->
-
-  </div>
-  <!--Fin Container Body-->
+          <label for="fmail">
+            <h3>Correo Electrónico:</h3>
+          </label>
+          <input class="form__email d-block" type="mail" id="fmail" name="fname"
+            placeholder="Ingresa tu correo electrónico">
+        </div>
+        <div class="form__container-button bg-light">
+          <button class="button button--form" type="button">Suscríbir</button>
+        </div>
+      </form>
+    </section>
+    <!--End Newsletter-->
+  </main>
+  <!--Fin Main-->
 
   <!--Bootstrap 5.0.1 popper-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

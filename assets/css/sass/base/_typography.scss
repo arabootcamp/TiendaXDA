@@ -1,3 +1,42 @@
-body{
-  font-family: $font;
+body {
+  font-family: $font-raleway;
+}
+
+h1 {
+  font-family: $font-playfair;
+  font-size: $xx-large;
+
+  @include response-to('device-large') {
+    font-size: $xxx-large;
+  }
+}
+
+h2 {
+  font-family: $font-playfair;
+  font-size: $x-large;
+
+  @include response-to('device-large') {
+    font-size: $xx-large;
+  }
+}
+
+h3,
+p,
+.form__email {
+  font-family: $font-playfair;
+  font-size: $x-small;
+
+  @include response-to('device-small') {
+    font-size: $medium;
+  }
+}
+
+
+.button {
+  font-size: $medium;
+  font-weight: $font-bold;
+
+  @include response-to('device-small') {
+    font-size: $large;
+  }
 }

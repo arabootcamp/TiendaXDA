@@ -16,10 +16,12 @@
 
   &__img {
     width: 100%;
+
     @include response-to('device-medium') {
       position: absolute;
       top: -40%;
     }
+
     @include response-to('device-xlarge') {
       position: static;
       height: 100%;

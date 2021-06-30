@@ -10935,10 +10935,6 @@ p,
   transform-origin: top left;
   transform: rotate(90deg);
   left: 100%;
-  /*
-  @include response-to('device-large') {
-    width: 220px;
-  }*/
 }
 
 /*# sourceMappingURL=style.css.map */

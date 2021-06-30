@@ -10770,14 +10770,14 @@ h2, .h2 {
 
 h3, .h3,
 p,
-.form__email {
+.form__email, label {
   font-family: "Playfair Display", serif;
   font-size: 12px;
 }
 @media (min-width: 575.98px) {
   h3, .h3,
 p,
-.form__email {
+.form__email, label {
     font-size: 16px;
   }
 }

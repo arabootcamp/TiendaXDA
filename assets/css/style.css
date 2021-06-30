@@ -10748,12 +10748,14 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-h1, .h1 {
+h1, .h1,
+.article__title {
   font-family: "Playfair Display", serif;
   font-size: 30px;
 }
 @media (min-width: 991.98px) {
-  h1, .h1 {
+  h1, .h1,
+.article__title {
     font-size: 50px;
   }
 }

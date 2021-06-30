@@ -2,7 +2,8 @@ body {
   font-family: $font-raleway;
 }
 
-h1 {
+h1,
+.article__title {
   font-family: $font-playfair;
   font-size: $xx-large;
 

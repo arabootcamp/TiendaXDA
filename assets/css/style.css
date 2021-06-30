@@ -10865,10 +10865,15 @@ p,
   padding: 35px 0;
   padding-left: calc((100vw - 40px)*0.1);
   padding-right: 40px;
+  min-height: calc(100vh - 56px - 58vw - 170px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 767.98px) {
   .section-description {
     padding-right: calc((100vw - 40px)*0.2);
+    min-height: calc(100vh - 80px - 44vw - 170px);
   }
 }
 @media (min-width: 1199.98px) {
